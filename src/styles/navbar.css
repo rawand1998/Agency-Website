@@ -1,0 +1,27 @@
+.navbar_conatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 25px;
+}
+nav {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+.logo span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #163acc;
+}
+.login_icon {
+  display: flex;
+  gap: 0.5rem;
+  color: #fff;
+}
